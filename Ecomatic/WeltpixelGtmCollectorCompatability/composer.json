@@ -1,0 +1,22 @@
+{
+    "name": "ecomatic/module-weltpixelgtmcollectorcompatability",
+    "description": "Compatability Module between Weltpixels GoogleTagManager and Ecomatics Collector Checkout",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Ecomatic\\WeltpixelGtmCollectorCompatability\\": ""
+        }
+    }
+}
